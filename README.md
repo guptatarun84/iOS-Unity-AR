@@ -12,7 +12,7 @@ Lets get started.
 
 From Unity
 
-Considering you already have Unity project created and it builds for latest iOS versions.
+Considering you already have Unity project created and it builds for latest iOS versions. Copy the full Unity project and paste it inside you Xcode directory structure.
 
 From Xcode
 
