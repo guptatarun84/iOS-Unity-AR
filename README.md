@@ -18,8 +18,7 @@ From Xcode
 
 There is a bit more to do here,
 
-Refer UnityProjectRefresh.sh(https://github.com/blitzagency/ios-unity5) and add its content to Run Script under your Project Target settings-> Build Phases-> New Run Script Phase 
-![Alt text](/Users/u576321/Desktop?raw=true "Title")
+Refer UnityProjectRefresh.sh(https://github.com/blitzagency/ios-unity5) and add its CONTENT to Run Script under your Project Target settings-> Build Phases-> New Run Script Phase 
 
 I have modified Unity.xcconfig(attached) to my convinience although it is same what is mentioned by https://github.com/blitzagency/ios-unity5. 
 
