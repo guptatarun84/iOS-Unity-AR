@@ -50,6 +50,7 @@ Go to Link Binary With Libraries under build phases and add below frameworks:
 
 Next, Under Project Target settings-> Build Phases-> Compile Sources add all .mm and .cpp Unity classes, considering you already removed below files as suggested in https://github.com/blitzagency/ios-unity5:
 
+```javascript
 Clean up your unity project
 
 This is all in the www.the-nerd.be video as well 7:35 - There is two location we will clean up for convenience. For both of these we ONLY WANT TO REMOVE REFERENCES DO NOT MOVE TO TRASH
@@ -60,6 +61,7 @@ The Unity.xcconfig we applied knows where they are for compiling purposes.
 
 Remove Unity/Libraries/libl2cpp/ 7:35 - 7:50 in www.the-nerd.be video.
 Remove Unity/Classes/Native/*.h 7:55- 8:44 in www.the-nerd.be video.
+```
 
 Next, you need to add Header and Library search Paths which is automatically taken care by Unity.xcconfig. The only modification I did in Library search path is added $(inherited), dont know but for some reason I could able to resolve the lib errors.
 
