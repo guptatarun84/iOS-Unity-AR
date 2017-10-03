@@ -95,6 +95,6 @@ Some debug point's still be taken into consideration if you got errors when your
 * If you want to continue to use Swift 4.0, only you need to do is:
 @objc var currentUnityController: UnityAppController?
 In Swift 4.0, when you need to access the swift code in the ObjectC code you have to put "@objc" before the attribute.
-
+* Disable metal from schemes, if required.
 I would like to thanks @igoredington and @eric-krikey for helping me with those errors.
 
